@@ -16,7 +16,7 @@
 // 1. Global
 // ---------
 
-$primary-color: #2199e8;
+$primary-color: #ffffff;
 $secondary-color: #777777;
 $success-color: #3adb76;
 $warning-color: #ffae00;
@@ -63,7 +63,7 @@ $global-font-size: 16px;
 $body-line-height: $global-line-height;
 $header-font-family: $body-font-family;
 $header-font-weight: $global-font-weight;
-$h1-font-size: 34px;
+$h1-font-size: 20px;
 $h2-font-size: 30px;
 $h3-font-size: 28px;
 $h4-font-size: 24px;
@@ -131,8 +131,8 @@ $callout-border-alert: 1px solid darken($alert-color, 20%);
 // 7. Menu
 // -------
 
-$menu-item-padding: 10px;
-$menu-item-gutter: 10px;
+$menu-item-padding: 0;
+$menu-item-gutter: 0;
 $menu-item-color: $primary-color;
 
 // 8. Thumbnail
