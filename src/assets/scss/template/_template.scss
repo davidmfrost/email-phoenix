@@ -14,10 +14,45 @@ html,
   background-color: #34404e;
 
   .header-logo {
-    padding-left: 180px;
-
     h1 {
       color: #ffffff;
+    }
+  }
+}
+
+.header-bottom {
+  background: #34404e;
+  background-color: #34404e;
+
+  h2 {
+    color: #ffffff;
+    font-weight: 300;
+
+    span {
+      font-weight: bold;
+    }
+  }
+
+  p {
+    padding-left: 160px;
+    padding-right: 160px;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 15px;
+  }
+
+  .columns {
+    .button {
+      a {
+        font-size: 11px;
+        text-transform: uppercase;
+      }
+    }
+
+    .ghost-button {
+      a {
+        background-color: #34404e;
+      }
     }
   }
 }
