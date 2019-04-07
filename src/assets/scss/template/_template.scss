@@ -72,3 +72,48 @@ html,
     hyphens: none;
   }
 }
+
+.two-column-box {
+  .columns {
+    h3 {
+      padding-top: 27px;
+      padding-bottom: 20px;
+      padding-left: 20px;
+      padding-right: 30px;
+      margin-bottom: 0;
+      font-size: 18px;
+      font-weight: 600;
+      color: #34404E;
+      hyphens: none;
+    }
+
+    p {
+      hyphens: none;
+      font-size: 13px;
+      color: #878787;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-bottom: 30px;
+    }
+
+    table.button {
+      text-transform: uppercase;
+
+      table td {
+        background-color: #ffffff;
+        background: #ffffff;
+        color: #FA6A2F;
+        border: 1px solid #FA6A2F;
+      }
+
+      a {
+        color: #FA6A2F;
+        font-size: 11px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+    }
+  }
+}
