@@ -184,5 +184,48 @@ html,
 }
 
 .headroom {
+  background: #F5F6F8;
+  background-color: #F5F6F8;
 
+  .headroom-box {
+    background: #ffffff;
+    background-color: #ffffff;
+  }
+
+  .columns {
+    padding-bottom: 0;
+
+    h4 {
+      font-family: Arial;
+      font-size: 18px;
+      color: #34404E;
+      margin-bottom: 0;
+    }
+
+    p {
+      font-family: Arial;
+      font-size: 13px;
+      color: #878787;
+      margin-bottom: 0;
+      padding-right: 51px;
+      hyphens: none;
+    }
+
+    .button {
+      text-transform: uppercase;
+      margin-bottom: 0;
+      
+      table td {
+        background: #ffffff;
+        background-color: #ffffff;
+        border: 1px solid #FA6A2F;
+      }
+
+      a {
+        font-family: Arial;
+        font-size: 11px;
+        color: #FA6A2F;
+      }
+    }
+  }
 }
