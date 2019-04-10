@@ -159,5 +159,27 @@ html,
 }
 
 .go-anywhere {
+  .columns {
+    padding-bottom: 0;
+
+    h4 {
+      font-size: 21px;
+      font-family: Arial;
+      color: #34404E;
+    }
   
+    p {
+      margin-bottom: 0;
+      font-family: Arial;
+      font-size: 13px;
+      color: #878787;
+    }
+
+    a {
+      color: #FA6A2F;
+      font-size: 13px;
+      font-family: Arial;
+    }
+  }
+
 }
