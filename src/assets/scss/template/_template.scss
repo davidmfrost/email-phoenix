@@ -230,3 +230,28 @@ html,
     }
   }
 }
+
+.stats {
+  background: #FA6A2F;
+  background-color: #FA6A2F;
+
+  .columns {
+    padding-bottom: 0;
+
+    h3 {
+      margin-bottom: 0;
+      padding-top: 24px;
+      padding-bottom: 21px;
+      font-family: Arial;
+      font-size: 30px;
+      color: #ffffff;
+    }
+
+    h4 {
+      margin-bottom: 0;
+      font-family: Arial;
+      font-size: 13px;
+      color: #ffffff;
+    }
+  }
+}
