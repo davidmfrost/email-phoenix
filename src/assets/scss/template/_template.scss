@@ -483,3 +483,37 @@ html,
     }
   }
 }
+
+.globe-banner {
+  background: #FA6A2F;
+  background-color: #FA6A2F;
+
+  .columns {
+    padding-bottom: 0;
+
+    h4 {
+      font-family: Arial;
+      font-size: 22px;
+      color: #ffffff;
+      margin-bottom: 0;
+    }
+
+    p {
+      font-family: Arial;
+      font-size: 13px;
+      color: #ffffff;
+      line-height: 1.8;
+      padding-left: 10px;
+      padding-right: 10px;
+      hyphens: none;
+      margin-bottom: 0;
+    }
+
+    h5 {
+      font-family: Arial;
+      font-size: 14px;
+      color: #ffffff;
+      margin-bottom: 0;
+    }
+  }
+}
