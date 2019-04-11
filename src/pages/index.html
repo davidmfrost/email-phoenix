@@ -342,11 +342,12 @@ subject: My Email Templates
       </row>
     </container>
 <!--Footer section-->
-<container>
+<container class="footer">
   <!--Top footer section-->
-  <row>
+  <row class="top-footer">
     <columns large="2"></columns>
-    <columns large="8">
+    <columns large="1">
+      <spacer size="45"></spacer>
       <row>
         <columns>
           <img src="{{root}}/assets/img/facebook-icon.png" alt="Facebook icon">
@@ -358,13 +359,25 @@ subject: My Email Templates
           <img src="{{root}}/assets/img/dribbble-icon.png" alt="Dribbble icon">
         </columns>
       </row>
-      <row>
-        <menu>
-          <item href="#">Check online</item>
-          <item href="#">Unsubscribe</item>
-          <item href="#">Forward to a Friend</item>
-        </menu>
-      </row>
+    </columns>
+    <columns large="2"></columns>
+  </row>
+  <row class="top-footer">
+    <columns large="2"></columns>
+    <columns large="2">
+      <spacer size="25"></spacer>
+      <menu>
+        <item href="#">Check online</item>
+        <columns style="width: 1%;">
+          <span class="menu-divider"></span>
+        </columns>
+        <item href="#">Unsubscribe</item>
+        <columns style="width: 1%;">
+          <span class="menu-divider"></span>
+        </columns>
+        <item href="#">Forward to a Friend</item>
+      </menu>
+      <spacer size="25"></spacer>
     </columns>
     <columns large="2"></columns>
   </row>
