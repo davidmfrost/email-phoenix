@@ -541,7 +541,7 @@ html,
 
     .columns {
       padding-bottom: 0;
-      
+
       .menu {
         a {
           font-family: Arial;
@@ -556,6 +556,24 @@ html,
           background-color: #878787;
           height: 15px;
         }
+      }
+    }
+  }
+
+  .bottom-footer {
+    background: #34404E;
+    background-color: #34404E;
+
+    .columns {
+      padding-bottom: 0;
+      
+      p {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: #ffffff;
+        font-family: Arial;
+        font-size: 10px;
+        margin-bottom: 0;
       }
     }
   }
