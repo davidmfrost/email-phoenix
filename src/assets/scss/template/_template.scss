@@ -9,60 +9,91 @@ html,
   background-color: #000000 !important;
 }
 
-.header-top {
-  background: #34404e;
-  background-color: #34404e;
+// Header Section
+.header {
+  // Top Header Section
+  .top-header {
+    background: #34404e;
+    background-color: #34404e;
 
-  .header-logo {
-    h1 {
+    .header-logo {
+      h1 {
+        color: #ffffff !important;
+        margin-bottom: 0;
+      }
+    }
+
+    .menu {
+      .important {
+        a {
+          color: #FA6A2F;
+        }
+      }
+    }
+  }
+  
+  // Bottom Header Section
+  .bottom-header {
+    background: #34404e;
+    background-color: #34404e;
+  
+    h2 {
+      margin-bottom: 0;
       color: #ffffff;
+      font-weight: 300;
+  
+      span {
+        font-weight: bold;
+      }
     }
-  }
-}
-
-.header-bottom {
-  background: #34404e;
-  background-color: #34404e;
-
-  h2 {
-    color: #ffffff;
-    font-weight: 300;
-
-    span {
-      font-weight: bold;
+  
+    p {
+      margin-bottom: 0;
+      padding-left: 160px;
+      padding-right: 160px;
+      color: #ffffff;
+      font-family: Arial;
+      font-size: 15px;
     }
-  }
+  
+    .columns {
+      padding-bottom: 0;
 
-  p {
-    padding-left: 160px;
-    padding-right: 160px;
-    color: #ffffff;
-    font-family: Arial;
-    font-size: 15px;
-  }
-
-  .columns {
-    .button {
-      a {
-        font-size: 11px;
+      .button {
         text-transform: uppercase;
-      }
-    }
+        margin-left: 10px;
 
-    .ghost-button {
-      a {
-        background-color: #34404e;
+        a {
+          font-family: Arial;
+          font-size: 11px;
+          font-weight: 400;
+          padding-top: 15px;
+          padding-bottom: 15px;
+          padding-left: 20px;
+          padding-right: 20px;
+        }
+      }
+  
+      .ghost-button {
+        margin-top: 1px;
+
+        table td {
+          background: #34404e;
+          background-color: #34404e;
+          border: 1px solid #ffffff; 
+        }
       }
     }
   }
 }
 
+// Three Columns Section
 .three-column {
   h3 {
     margin-bottom: 0;
     padding-top: 23px;
     padding-bottom: 23px;
-    font-weight: 600;
+    font-weight: 400;
     color: #34404E;
   }
 
@@ -73,51 +104,71 @@ html,
   }
 }
 
-.two-column-box {
+// Two Columns Section
+.two-columns {
+  background: #F5F6F8;
+  background-color: #F5F6F8;
+
   .columns {
-    h3 {
-      padding-top: 27px;
-      padding-bottom: 20px;
-      padding-left: 20px;
-      padding-right: 30px;
-      margin-bottom: 0;
-      font-size: 18px;
-      font-weight: 600;
-      color: #34404E;
-      hyphens: none;
-    }
-
-    p {
-      hyphens: none;
-      font-size: 13px;
-      color: #878787;
-      padding-left: 20px;
-      padding-right: 20px;
-      padding-bottom: 30px;
-    }
-
-    table.button {
-      text-transform: uppercase;
-
-      table td {
-        background-color: #ffffff;
-        background: #ffffff;
-        color: #FA6A2F;
-        border: 1px solid #FA6A2F;
+    .two-columns-box {
+      padding-bottom: 0;
+      background: #ffffff;
+      background-color: #ffffff;
+      box-shadow: 0px 2px 0px 0px #E4E4E4;
+      
+      h3 {
+        padding-top: 27px;
+        padding-bottom: 20px;
+        padding-left: 20px;
+        padding-right: 30px;
+        margin-bottom: 0;
+        font-size: 18px;
+        font-weight: 400;
+        color: #34404E;
+        hyphens: none;
+      }
+  
+      p {
+        margin-bottom: 0;
+        hyphens: none;
+        font-size: 13px;
+        color: #878787;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 30px;
       }
 
-      a {
-        color: #FA6A2F;
-        font-size: 11px;
-        padding-top: 5px;
-        padding-bottom: 5px;
-        padding-left: 10px;
-        padding-right: 10px;
+      table > tbody > tr > th {
+        padding-bottom: 40px;
+      }
+  
+      table.button {
+        text-transform: uppercase;
+        margin-left: 20px;
+        margin-bottom: 0;
+  
+        table td {
+          background-color: #ffffff;
+          background: #ffffff;
+          color: #FA6A2F;
+          border: 1px solid #FA6A2F;
+        }
+  
+        a {
+          color: #FA6A2F;
+          font-size: 11px;
+          font-weight: 400;
+          padding-top: 5px;
+          padding-bottom: 5px;
+          padding-left: 10px;
+          padding-right: 10px;
+        }
       }
     }
   }
 }
 
+// Banner Section
 .banner {
   background: #34404E;
   background-color: #34404E;
@@ -129,9 +180,11 @@ html,
       font-family: Arial;
       font-size: 18px;
       color: #ffffff;
+      margin-bottom: 0;
     }
 
     p {
+      margin-bottom: 0;
       font-family: Arial;
       font-size: 13px;
       color: #ffffff;
@@ -143,6 +196,7 @@ html,
 
     .button {
       text-transform: uppercase;
+      margin-bottom: 0;
       
       table td {
         background: #34404e;
@@ -153,11 +207,17 @@ html,
       a {
         font-family: Arial;
         font-size: 11px;
+        font-weight: 400;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 20px;
+        padding-right: 20px;
       }
     }
   }
 }
 
+// Full Width Section
 .go-anywhere {
   .columns {
     padding-bottom: 0;
@@ -183,6 +243,7 @@ html,
   }
 }
 
+// Full Width Image Section
 .headroom {
   background: #F5F6F8;
   background-color: #F5F6F8;
@@ -201,6 +262,7 @@ html,
       font-size: 18px;
       color: #34404E;
       margin-bottom: 0;
+      padding-right: 10px;
     }
 
     p {
@@ -225,12 +287,18 @@ html,
       a {
         font-family: Arial;
         font-size: 11px;
+        font-weight: 400;
         color: #FA6A2F;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
       }
     }
   }
 }
 
+// Stats Section
 .stats {
   background: #FA6A2F;
   background-color: #FA6A2F;
@@ -252,10 +320,12 @@ html,
       font-family: Arial;
       font-size: 13px;
       color: #ffffff;
+      font-weight: 100;
     }
   }
 }
 
+// Sure Fire Section
 .sure-fire {
   background: #ffffff;
   background-color: #ffffff;
@@ -266,6 +336,7 @@ html,
     h3 {
       font-family: Arial;
       font-size: 22px;
+      font-weight: 400;
       color: #34404E;
       margin-bottom: 0;
     }
@@ -273,6 +344,7 @@ html,
     p {
       font-family: Arial;
       font-size: 13px;
+      font-weight: 300;
       color: #878787;
       margin-bottom: 0;
       line-height: 1.9;
@@ -282,11 +354,13 @@ html,
     a {
       font-family: Arial;
       font-size: 13px;
+      font-weight: 300;
       color: #FA6A2F;
     }
   }
 }
 
+// Quality Strength Detail Section
 .quality-strength-detail {
   background: #F5F6F8;
   background-color: #F5F6F8;
@@ -322,6 +396,7 @@ html,
   }
 }
 
+// Combo Sale Section
 .combo-sale {
   background: #34404E;
   background-color: #34404E;
@@ -332,6 +407,8 @@ html,
   }
 
   .columns {
+    padding-bottom: 0;
+
     h3 {
       font-family: Arial;
       font-size: 22px;
@@ -343,6 +420,7 @@ html,
     p {
       font-family: Arial;
       font-size: 13px;
+      font-weight: 400;
       color: #ffffff;
       line-height: 1.7;
       hyphens: none;
@@ -362,6 +440,7 @@ html,
       a {
         font-family: Arial;
         font-size: 11px;
+        font-weight: 400;
         color: #ffffff;
         padding-top: 8px;
         padding-bottom: 8px;
@@ -369,12 +448,10 @@ html,
         padding-right: 15px;
       }
     }
-
-    img {
-    }
   }
 }
 
+// Select Models Section
 .select-models {
   background: #F5F6F8;
   background-color: #F5F6F8;
@@ -422,6 +499,7 @@ html,
       a {
         font-family: Arial;
         font-size: 11px;
+        font-weight: 400;
         color: #FA6A2F;
         padding-top: 8px;
         padding-bottom: 8px;
@@ -433,6 +511,7 @@ html,
   }
 }
 
+// Double Columns Section
 .double-columns {
   background: #ffffff;
   background-color: #ffffff;
@@ -484,6 +563,7 @@ html,
   }
 }
 
+// Globe Banner Section
 .globe-banner {
   background: #FA6A2F;
   background-color: #FA6A2F;
@@ -518,6 +598,7 @@ html,
   }
 }
 
+// Clients Section
 .clients {
   background: #ffffff;
   background-color: #ffffff;
@@ -534,7 +615,9 @@ html,
   }
 }
 
+// Footer Section
 .footer {
+  // Top Footer Section
   .top-footer {
     background: #F5F6F8;
     background-color: #F5F6F8;
@@ -560,6 +643,7 @@ html,
     }
   }
 
+  // Bottom Footer Section
   .bottom-footer {
     background: #34404E;
     background-color: #34404E;
