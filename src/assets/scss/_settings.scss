@@ -30,14 +30,14 @@ $white: #fefefe;
 $pre-color: #ff6908;
 $global-width: 900px;
 $global-width-small: 95%;
-$global-gutter: 16px;
+$global-gutter: 0;
 $body-background: $light-gray;
 $container-background: $white;
-$global-padding: 16px;
-$global-margin: 16px;
+$global-padding: 0;
+$global-margin: 0;
 $global-radius: 3px;
 $global-rounded: 500px;
-$global-breakpoint: $global-width + $global-gutter;
+$global-breakpoint: 600px;
 
 // 2. Grid
 // -------
