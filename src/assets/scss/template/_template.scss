@@ -2,6 +2,7 @@
 // Feel free to remove these styles for production!
 
 // Body Styles 
+// -------------
 body,
 html, 
 .body {
@@ -10,36 +11,45 @@ html,
 }
 
 // Header Section
+// -------------
+// Top Header Section
+// -------------
+.top-header {
+  background: #34404e;
+  background-color: #34404e;
 
-  // Top Header Section
-  .top-header {
-    background: #34404e;
-    background-color: #34404e;
+  .columns {
+    padding-bottom: 0;
 
-    .columns {
-      padding-bottom: 0;
+    .header-logo {
+      h1 {
+        padding-left: 33px;
+        color: #ffffff !important;
+        margin-bottom: 0;
+        font-weight: 300;
+      }
+    }
 
-      .header-logo {
-        h1 {
-          color: #ffffff !important;
-          margin-bottom: 0;
-        }
+    .menu {
+      margin-top: 5px;
+
+      a {
+        font-size: 13px;
+        font-weight: 200;
       }
 
-      .menu {
-          a {
-            font-size: 13px;
-          }
+      .important {
+        padding-right: 0;
 
-        .important {
-          a {
-            color: #FA6A2F;
-          }
+        a {
+          color: #FA6A2F;
+          text-transform: uppercase;
         }
       }
     }
   }
-  
+}   
+
   // // Bottom Header Section
   // .bottom-header {
   //   background: #34404e;
