@@ -42,7 +42,7 @@ html,
         padding-right: 0;
 
         a {
-          color: #FA6A2F;
+          color: $alert-color;
           text-transform: uppercase;
         }
       }
@@ -56,49 +56,42 @@ html,
   background: #34404e;
   background-color: #34404e;
 
-  h2 {
-    margin-bottom: 0;
-    color: #ffffff;
-    font-weight: 300;
-
-    span {
-      font-weight: bold;
-    }
-  }
-
-  p {
-    margin-bottom: 0;
-    
-    color: #ffffff;
-    font-family: Arial;
-    font-size: 15px;
-    hyphens: none;
-  }
-
   .columns {
     padding-bottom: 0;
 
+    h2 {
+      margin-bottom: 0;
+      color: #ffffff;
+      font-weight: 300;
+  
+      span {
+        font-weight: bold;
+      }
+    }
+  
+    p {
+      margin-bottom: 0;
+      padding-left: 5px;
+      padding-right: 5px;
+      color: #ffffff;
+      font-family: Arial;
+      font-size: 15px;
+      hyphens: none;
+    }
+
     .button {
       text-transform: uppercase;
-
-      a {
-        font-family: Arial;
-        font-size: 11px;
-        font-weight: 400;
-        padding-top: 15px;
-        padding-bottom: 15px;
-        padding-left: 20px;
-        padding-right: 20px;
-      }
+      border: 2px solid #ffffff;
+      margin-left: 18px;
     }
 
     .ghost-button {
       margin-top: 1px;
+      border: 1px solid #ffffff;
 
       table td {
         background: #34404e;
-        background-color: #34404e;
-        border: 1px solid #ffffff; 
+        background-color: #34404e; 
       }
     }
   }
@@ -106,21 +99,19 @@ html,
 
 
 // Three Columns Section
-// .three-column {
-//   h3 {
-//     margin-bottom: 0;
-//     padding-top: 23px;
-//     padding-bottom: 23px;
-//     font-weight: 400;
-//     color: #34404E;
-//   }
+.three-column {
+  h3 {
+    margin-bottom: 0;
+    font-weight: 400;
+    color: #34404E;
+  }
 
-//   p {
-//     font-size: 13px;
-//     color: #878787;
-//     hyphens: none;
-//   }
-// }
+  p {
+    font-size: 13px;
+    color: #878787;
+    hyphens: none;
+  }
+}
 
 // // Two Columns Section
 // .two-columns {
