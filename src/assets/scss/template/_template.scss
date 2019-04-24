@@ -224,31 +224,38 @@ html,
   }
 }
 
-// // Full Width Section
-// .go-anywhere {
-//   .columns {
-//     padding-bottom: 0;
+// Full Width Section
+// -------------
+.go-anywhere {
+  .columns {
+    padding-bottom: 0;
 
-//     h4 {
-//       font-size: 21px;
-//       font-family: Arial;
-//       color: #34404E;
-//     }
+    h4 {
+      font-size: 21px;
+      font-family: Arial;
+      color: #34404E;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
   
-//     p {
-//       margin-bottom: 0;
-//       font-family: Arial;
-//       font-size: 13px;
-//       color: #878787;
-//     }
+    p {
+      margin-bottom: 0;
+      font-family: Arial;
+      font-size: 13px;
+      color: #878787;
+      hyphens: none;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
 
-//     a {
-//       color: #FA6A2F;
-//       font-size: 13px;
-//       font-family: Arial;
-//     }
-//   }
-// }
+    a {
+      color: #FA6A2F;
+      font-size: 13px;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  }
+}
 
 // // Full Width Image Section
 // .headroom {
