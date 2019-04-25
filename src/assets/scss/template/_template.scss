@@ -257,60 +257,63 @@ html,
   }
 }
 
-// // Full Width Image Section
-// .headroom {
-//   background: #F5F6F8;
-//   background-color: #F5F6F8;
+// Full Width Image Section
+// -------------
+.headroom {
+  background: #F5F6F8;
+  background-color: #F5F6F8;
 
-//   .headroom-box {
-//     background: #ffffff;
-//     background-color: #ffffff;
-//     box-shadow: 0px 2px 0px 0px #E4E4E4;
-//   }
+  .headroom-box {
+    background: #ffffff;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 0px 0px #E4E4E4;
+  }
 
-//   .columns {
-//     padding-bottom: 0;
+  .columns {
+    padding-bottom: 0;
 
-//     h4 {
-//       font-family: Arial;
-//       font-size: 18px;
-//       color: #34404E;
-//       margin-bottom: 0;
-//       padding-right: 10px;
-//     }
+    h4 {
+      padding-left: 10px;
+      font-size: 18px;
+      color: #34404E;
+      margin-bottom: 0;
+      padding-right: 10px;
+      hyphens: none;
 
-//     p {
-//       font-family: Arial;
-//       font-size: 13px;
-//       color: #878787;
-//       margin-bottom: 0;
-//       padding-right: 51px;
-//       hyphens: none;
-//     }
-
-//     .button {
-//       text-transform: uppercase;
-//       margin-bottom: 0;
       
-//       table td {
-//         background: #ffffff;
-//         background-color: #ffffff;
-//         border: 1px solid #FA6A2F;
-//       }
+    }
 
-//       a {
-//         font-family: Arial;
-//         font-size: 11px;
-//         font-weight: 400;
-//         color: #FA6A2F;
-//         padding-top: 10px;
-//         padding-bottom: 10px;
-//         padding-left: 20px;
-//         padding-right: 20px;
-//       }
-//     }
-//   }
-// }
+    p {
+      padding-left: 10px;
+      padding-right: 10px;
+      font-size: 13px;
+      color: #878787;
+      margin-bottom: 0;
+      hyphens: none;
+    }
+
+    .button {
+      text-transform: uppercase;
+      margin-bottom: 0;
+      
+      table td {
+        background: #ffffff;
+        background-color: #ffffff;
+        border: 1px solid #FA6A2F;
+      }
+
+      a {
+        font-size: 11px;
+        font-weight: 400;
+        color: #FA6A2F;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+    }
+  }
+}
 
 // // Stats Section
 // .stats {
