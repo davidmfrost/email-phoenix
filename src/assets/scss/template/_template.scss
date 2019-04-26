@@ -315,67 +315,69 @@ html,
   }
 }
 
-// // Stats Section
-// .stats {
-//   background: #FA6A2F;
-//   background-color: #FA6A2F;
+// Stats Section
+// -------------
+.stats {
+  background: #FA6A2F;
+  background-color: #FA6A2F;
 
-//   .columns {
-//     padding-bottom: 0;
+  .columns {
+    padding-bottom: 0;
 
-//     h3 {
-//       margin-bottom: 0;
-//       padding-top: 24px;
-//       padding-bottom: 21px;
-//       font-family: Arial;
-//       font-size: 30px;
-//       color: #ffffff;
-//     }
+    h3 {
+      margin-bottom: 0;
+      padding-top: 24px;
+      padding-bottom: 21px;
+      font-family: Arial;
+      font-size: 30px;
+      color: #ffffff;
+    }
 
-//     h4 {
-//       margin-bottom: 0;
-//       font-family: Arial;
-//       font-size: 13px;
-//       color: #ffffff;
-//       font-weight: 100;
-//     }
-//   }
-// }
+    h4 {
+      margin-bottom: 0;
+      font-size: 13px;
+      color: #ffffff;
+      font-weight: 100;
+    }
+  }
+}
 
-// // Sure Fire Section
-// .sure-fire {
-//   background: #ffffff;
-//   background-color: #ffffff;
+// Sure Fire Section
+.sure-fire {
+  background: #ffffff;
+  background-color: #ffffff;
 
-//   .columns {
-//     padding-bottom: 0;
+  .columns {
+    padding-bottom: 0;
 
-//     h3 {
-//       font-family: Arial;
-//       font-size: 22px;
-//       font-weight: 400;
-//       color: #34404E;
-//       margin-bottom: 0;
-//     }
+    h3 {
+      font-family: Arial;
+      font-size: 22px;
+      font-weight: 400;
+      color: #34404E;
+      margin-bottom: 0;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
 
-//     p {
-//       font-family: Arial;
-//       font-size: 13px;
-//       font-weight: 300;
-//       color: #878787;
-//       margin-bottom: 0;
-//       line-height: 1.9;
-//       hyphens: none;
-//     }
+    p {
+      padding-left: 10px;
+      padding-right: 10px;
+      font-size: 13px;
+      font-weight: 300;
+      color: #878787;
+      margin-bottom: 0;
+      line-height: 1.9;
+      hyphens: none;
+    }
 
-//     a {
-//       font-family: Arial;
-//       font-size: 13px;
-//       font-weight: 300;
-//       color: #FA6A2F;
-//     }
-//   }
-// }
+    a {
+      font-size: 13px;
+      font-weight: 300;
+      color: #FA6A2F;
+    }
+  }
+}
 
 // // Quality Strength Detail Section
 // .quality-strength-detail {
