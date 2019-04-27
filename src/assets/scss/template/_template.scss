@@ -8,6 +8,7 @@ html,
 .body {
   background: #000000 !important;
   background-color: #000000 !important;
+  padding-bottom: 300px;
 }
 
 // Header Section
@@ -579,6 +580,7 @@ html,
 }
 
 // Globe Banner Section
+// -------------
 .globe-banner {
   background: #FA6A2F;
   background-color: #FA6A2F;
@@ -618,6 +620,7 @@ html,
 }
 
 // Clients Section
+// -------------
 .clients {
   background: #ffffff;
   background-color: #ffffff;
@@ -634,50 +637,49 @@ html,
   }
 }
 
-// // Footer Section
-// .footer {
-//   // Top Footer Section
-//   .top-footer {
-//     background: #F5F6F8;
-//     background-color: #F5F6F8;
+// Footer Section
+// -------------
+// Top Footer Section
+// -------------
+.top-footer {
+  background: #F5F6F8;
+  background-color: #F5F6F8;
 
-//     .columns {
-//       padding-bottom: 0;
+  .columns {
+    padding-bottom: 0;
 
-//       .menu {
-//         a {
-//           font-family: Arial;
-//           color: #FA6A2F;
-//           font-size: 11px;
-//         }
-
-//         .menu-divider {
-//           display: block;
-//           width: 1px;
-//           background: #878787;
-//           background-color: #878787;
-//           height: 15px;
-//         }
-//       }
-//     }
-//   }
-
-//   // Bottom Footer Section
-//   .bottom-footer {
-//     background: #34404E;
-//     background-color: #34404E;
-
-//     .columns {
-//       padding-bottom: 0;
+    .menu {
+      th {
+        padding-right: 10px;
+        padding-left: 10px;
+      }
       
-//       p {
-//         padding-top: 20px;
-//         padding-bottom: 20px;
-//         color: #ffffff;
-//         font-family: Arial;
-//         font-size: 10px;
-//         margin-bottom: 0;
-//       }
-//     }
-//   }
-// }
+      a {
+        color: #FA6A2F;
+        font-size: 11px;
+      }
+
+      .menu-divider {
+        border-left: 1px solid #878787;
+        border-right: 1px solid #878787;
+      }
+    }
+  }
+}
+
+// Bottom Footer Section
+// -------------
+.bottom-footer {
+  background: #34404E;
+  background-color: #34404E;
+
+  .columns {
+    padding-bottom: 0;
+    
+    p {
+      color: #ffffff;
+      font-size: 10px;
+      margin-bottom: 0;
+    }
+  }
+}
