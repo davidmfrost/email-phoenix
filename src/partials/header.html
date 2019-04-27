@@ -1,45 +1,55 @@
 <!--Header Section-->
-<container class="header">
+<container>
   <!--Top Header Section-->
   <row class="top-header">
-    <columns large="2"></columns>
-    <columns large="5" class="header-logo">
+    <columns small="12" large="2"></columns>
+    <columns small="12" large="8">
       <spacer size="20"></spacer>
-      <h1>HTML Email</h1>
-    </columns>
-    <columns large="3">
+      <row>
+        <columns small="6" large="8" class="header-logo">
+          <h1>HTML Email</h1>
+        </columns>
+        <columns small="6" large="4">
+          <menu>
+              <item href="#">About</item>
+              <item href="#">Portfolio</item>
+              <item href="#" class="important">More!</item>
+            </menu>
+        </columns>
+      </row>
       <spacer size="20"></spacer>
-      <menu>
-        <item href="#">About</item>
-        <item href="#">Portfolio</item>
-        <item href="#" class="important">More!</item>
-      </menu>
     </columns>
-    <columns large="2"></columns>
+    <columns small="12" large="2"></columns>
   </row>
   <!--Bottom Header Section-->
   <row class="bottom-header">
-    <columns>
-      <columns large="2"></columns>
-      <columns large="8">
-        <spacer size="60"></spacer>
-        <h2 class="text-center"><span>HTML</span> Email Studio</h2>
-        <spacer size="40"></spacer>
-        <p class="text-center">It's about finding that perfect solution for a clients problem</p>
-        <spacer size="50"></spacer>
-        <row>
-          <columns></columns>
-          <columns>
-            <button href="#" class="">Start Today!</button>
-          </columns>
-          <columns>
-            <button href="#" class="ghost-button">Learn More</button>
-          </columns>
-          <columns></columns>
-        </row>
-        <spacer size="60"></spacer>
-      </columns>
-      <columns large="2"></columns>
+    <columns large="2"></columns>
+    <columns large="8">
+      <spacer size="60"></spacer>
+      <row>
+        <columns>
+          <h2 class="text-center"><span>HTML</span> Email Studio</h2>
+        </columns>
+      </row>
+      <spacer size="40"></spacer>
+      <row>
+        <columns large="6">
+          <p class="text-center">It's about finding that perfect solution<br> for a clients problem</p>
+        </columns>
+      </row>
+      <spacer size="50"></spacer>
+      <row>
+        <columns></columns>
+        <columns small="6" large="3">
+          <button href="#" class="large">Start Today!</button>
+        </columns>
+        <columns small="6" large="3">
+          <button href="#" class="large ghost-button">Learn More</button>
+        </columns>
+        <columns></columns>
+      </row>
+      <spacer size="100"></spacer>
     </columns>
+    <columns large="2"></columns>
   </row>
 </container>
