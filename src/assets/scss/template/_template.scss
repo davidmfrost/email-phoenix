@@ -433,6 +433,7 @@ html,
       font-size: 22px;
       color: #ffffff;
       line-height: 1.4;
+      hyphens: none;
     }
 
     p {
@@ -442,6 +443,7 @@ html,
       line-height: 1.7;
       hyphens: none;
       padding-bottom: 35px;
+      padding-right: 7px;
     }
 
     .button {
